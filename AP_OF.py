@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import xgboost
 
 # Load the model
-model = joblib.load(r"C:\Users\zhang\Desktop\app_AP_OF\XGBoost_clinical.pkl")
+model = joblib.load("XGBoost_clinical.pkl")
 
 # Define feature names
 feature_names = [
